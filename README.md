@@ -96,16 +96,16 @@ sudo systemctl restart svxreflector
 ```
 ### Étape 2 : Téléchargement et installation des fichiers du Dashboard
 
-1. Assurez-vous d'être dans le répertoire `/var/www/html`. Puis supprimez tous les fichiers et sous-répertoires de ce dernier :
+1. Assurez-vous d'être dans le répertoire `/var/www`. Puis supprimez le répertoire `html`:
 ```
-cd /var/www/html
+cd /var/www
 ```
 ```
-sudo rm -rf ./*
+sudo rm -rf html
 ```
-2. Ensuite, utilisez la commande suivante pour télécharger directement les fichiers dans le répertoire :
+2. Ensuite, utilisez la commande suivante por télécharger et copier tout le contenu dans le répertoire /var/www/html :
 ```
-
+sudo git clone https://github.com/CN8VX/Dashboard_SvxReflector_by_CN8VX.git html
 ```
 
 ## Modifications Apportées :
