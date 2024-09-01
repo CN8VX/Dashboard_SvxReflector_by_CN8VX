@@ -1,7 +1,6 @@
 # Dashboard SvxReflector by CN8VX
 
 # English
-==========
 
 The SvxReflector Dashboard by CN8VX is based on the svxrdb-server Dashboard. Rewritten and redesigned by CN8VX, this Dashboard is intended for use with the latest versions of the "SvxReflector" servers.
 
@@ -72,7 +71,6 @@ I encourage you to send me your comments and suggestions or corrections to the f
 
 
 # French
-==========
 
 Le Dashboard SvxReflector by CN8VX est basé sur le Dashboard svxrdb-server. Réécrit et reconçu par CN8VX, ce Dashboard est destiné à être utilisé avec les nouvelles versions des serveurs "SvxReflector".
 
