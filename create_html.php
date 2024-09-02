@@ -41,14 +41,14 @@ for ($i=0; $i<count($logs, 0); $i++) {
 
 if (count($logs) >= 0){
     echo "<main><div id=\"table-container\"><table id=\"logtable\">\n\r<tr>\n\r";
-    echo "<th onclick=tabSort(\"EAR\")>Indicatif de la Station</th>\n\r";
-    echo "<th>Connecté depuis</th>\n\r";
+    echo "<th onclick=tabSort(\"EAR\")>Callsign client</th>\n\r";
+    echo "<th>Connected since</th>\n\r";
 
     if( (IPLIST == "SHOW") OR (IPLIST == "SHOWLONG")) {
         echo "<th>Network address</th>\n\r";
     }
 
-    echo '<th class="state">État</th>'."\n\r";
+    echo '<th class="state">state</th>'."\n\r";
     
     if( (TG == "SHOW") ) {
     	echo "<th>TG</th>\n\r";
@@ -139,7 +139,7 @@ if (count($logs) >= 0){
                 echo "</tr>\n\r";
             } // FIN DU NOUVEAU FICHIER JOURNAL DONNÉES FAUX
  
-            // C’est le séparateur entre le tableau "Indicatif de la Station" et "SVXReflector-Dashboard"
+            // C’est le séparateur entre le tableau "Callsign client" et "SVXReflector-Dashboard"
              //Début du séparateur
             if (preg_match('/NEWLOGFILEDATA/i', $logs[$i]['CALL'])) {
                 echo "<tr><th class='logline' colspan='7'></th></tr>\n\r";
@@ -208,6 +208,5 @@ echo '<pre>
 94[TG]# ==> Temporarily listen to (94+TG number followed by #).
 </BR>';
 }
-
 
 ?>
