@@ -1,5 +1,5 @@
 <?php
-//'#talkgroup' => 'number alias database'
+/* talkgroup / number alias database */
 $tgdb_array = [
 	'#0'     => 'IDLE',
 	'#6041'    => 'Cross Mode DMR = ANALOGIQUE',
