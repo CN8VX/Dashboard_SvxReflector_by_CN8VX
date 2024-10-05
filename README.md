@@ -8,6 +8,12 @@ Initially, it was rewritten, redesigned, simplified, and customized specifically
 
 The Dashboard SvxReflector by CN8VX can be viewed on PCs, tablets, and smartphones. You can switch between LIGHT MODE and DARK MODE by simply clicking the button on the Dashboard page.
 
+## Modifications Made:
+- Customization of the `index.php` file.
+- Consolidation and organization of CSS files for themes into a single folder for better management.
+- Project file reorganization:
+  - Creation of `icon`, `img`, `include`, and `scripts` folders for a cleaner and more organized file structure, making resource management easier.
+
 ## INSTALLATION:
 
 ### Step 1: Configuring the `svxreflector.conf` file
@@ -38,12 +44,6 @@ sudo rm -rf html
 sudo git clone https://github.com/CN8VX/Dashboard_SvxReflector_by_CN8VX.git html
 ```
 
-## Modifications Made:
-- Customization of the `index.php` file.
-- Consolidation and organization of CSS files for themes into a single folder for better management.
-- Project file reorganization:
-  - Creation of `icon`, `img`, `include`, and `scripts` folders for a cleaner and more organized file structure, making resource management easier.
-
 ## To adapt the Dashboard to your Reflector, follow these steps:
 1. Edit the `/include/config.php` file:
    - Set the timezone. You can find the available timezones on this site: https://www.php.net/manual/en/timezones.php.
@@ -67,7 +67,7 @@ This version of the Dashboard is stable, but new features and improvements may b
 
 I encourage you to send me your comments and suggestions or corrections to the following address: cn8vx.ma@gmail.com
 
-73 de CN8VX, SYSOP of the DMR-MAROC SERVER.
+73. CN8VX, SYSOP of the DMR-MAROC SERVER.
 
 
 # French
@@ -77,6 +77,12 @@ Dashboard SvxReflector by CN8VX est basé sur le Dashboard svxrdb-server. Rééc
 Il a d'abord été réécrit, reconçu, simplifié et personnalisé spécifiquement pour le SvxReflector for Moroccan Amateur Radio Repeaters Interco (http://51.210.47.236/). Toutefois, il peut être adapté à d'autres réflecteurs en suivant les étapes décrites ci-dessous.
 
 Le Dashboard SvxReflector by CN8VX peut être visualisé sur PC, tablette, et smartphone. Vous pouvez changer de thème (LIGHT MODE ou DARK MODE) en cliquant simplement sur le bouton qui se trouve sur la page du Dashboard.
+
+## Modifications Apportées :
+- Personnalisation du fichier `index.php`.
+- Rassemblement et organisation des fichiers CSS pour les thèmes dans un seul dossier pour une meilleure gestion.
+- Réorganisation des fichiers du projet :
+  - Création des dossiers `icon`, `img`, `include`, et `scripts` pour une structure de fichiers plus propre et organisée, facilitant ainsi la gestion des ressources.
 
 ## INSTALLATION :
 
@@ -107,12 +113,6 @@ sudo rm -rf html
 ```
 sudo git clone https://github.com/CN8VX/Dashboard_SvxReflector_by_CN8VX.git html
 ```
-
-## Modifications Apportées :
-- Personnalisation du fichier `index.php`.
-- Rassemblement et organisation des fichiers CSS pour les thèmes dans un seul dossier pour une meilleure gestion.
-- Réorganisation des fichiers du projet :
-  - Création des dossiers `icon`, `img`, `include`, et `scripts` pour une structure de fichiers plus propre et organisée, facilitant ainsi la gestion des ressources.
 
 ## Pour adapter le Dashboard à votre Réflecteur, suivez les étapes suivantes :
 1. Éditez le fichier `/include/config.php` :
