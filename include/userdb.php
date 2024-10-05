@@ -7,7 +7,7 @@ $userdb_array = [
 	'CN8EAA-L'		=> 'Répéteur VHF de Témara 145.73750Mhz Duplex',
 	'CN8MC-RU'		=> 'Répéteur UHF de RABAT 439.850Mhz Duplex', 
 	'CN8MSF-SU'		=> 'Répéteur UHF de Khouribga 433.600Mhz Simplex'
-    
+   
 ];
 
 ?>
