@@ -45,7 +45,7 @@ sudo git clone https://github.com/CN8VX/Dashboard_SvxReflector_by_CN8VX.git html
 ```
 
 ## To adapt the Dashboard to your Reflector, follow these steps:
-1. Edit the `/include/config.php` file:
+1. Edit the file "config.php" located in `/var/www/html/include/config.php`:
    - Set the timezone. You can find the available timezones on this site: https://www.php.net/manual/en/timezones.php.
    - Modify the page title.
    - Set the log file path if it’s not the default `/var/log/svxreflector` or if you have added an extension, e.g., `/var/log/svxreflector.log`.
@@ -61,7 +61,7 @@ sudo git clone https://github.com/CN8VX/Dashboard_SvxReflector_by_CN8VX.git html
    - Customize, rename, and configure the button links as needed.
    - Customize the instruction text at the top of the table.
 
-**NB**: Don’t forget to edit and modify the `/include/tgdb.php` file to add and rename your TalkGroups, and the `/include/userdb.php` file to add and rename the reflector users.
+**NB**: Don’t forget to edit and modify the `/var/www/html/include/tgdb.php` file to add and rename your TalkGroups, and the `/var/www/html/include/userdb.php` file to add and rename the reflector users.
 
 This version of the Dashboard is stable, but new features and improvements may be introduced in future updates of the SvxReflector Dashboard by CN8VX.
 
@@ -115,7 +115,7 @@ sudo git clone https://github.com/CN8VX/Dashboard_SvxReflector_by_CN8VX.git html
 ```
 
 ## Pour adapter le Dashboard à votre Réflecteur, suivez les étapes suivantes :
-1. Éditez le fichier `/include/config.php` :
+1. Éditez le fichier "config.php" qui se trouve dans `/var/www/html/include/config.php` :
    - Définissez le fuseau horaire. Vous trouverez les fuseaux horaires sur ce site : https://www.php.net/manual/en/timezones.php.
    - Modifiez le titre de la page.
    - Définissez le chemin du fichier journal (log) si ce n’est pas par défaut `/var/log/svxreflector`, ou si vous avez ajouté une extension, par exemple : `/var/log/svxreflector.log`.
@@ -131,7 +131,7 @@ sudo git clone https://github.com/CN8VX/Dashboard_SvxReflector_by_CN8VX.git html
    - Personnalisez, renommez, et configurez les liens des boutons selon vos besoins.
    - Personnalisez le texte des consignes qui se trouvent en haut du tableau.
 
-**NB** : N’oubliez pas d’éditer et de modifier le fichier `/include/tgdb.php` pour ajouter et renommer vos TalkGroups, ainsi que le fichier `/include/userdb.php` pour ajouter et renommer les utilisateurs du réflecteur.
+**NB** : N’oubliez pas d’éditer et de modifier le fichier `/var/www/html/include/tgdb.php` pour ajouter et renommer vos TalkGroups, ainsi que le fichier `/var/www/html/include/userdb.php` pour ajouter et renommer les utilisateurs du réflecteur.
 
 Cette version du Dashboard est stable, mais de nouvelles fonctionnalités et améliorations pourraient être introduites dans les prochaines mises à jour du Dashboard SvxReflector by CN8VX.
 
