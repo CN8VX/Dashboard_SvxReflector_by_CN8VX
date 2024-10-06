@@ -8,6 +8,8 @@ Initially, it was rewritten, redesigned, simplified, and customized specifically
 
 The Dashboard SvxReflector by CN8VX can be viewed on PCs, tablets, and smartphones. You can switch between LIGHT MODE and DARK MODE by simply clicking the button on the Dashboard page.
 
+You can also view the table of Talk Groups that are programmed in the reflector by clicking on the Talk Groups button.
+
 ## Modifications Made:
 - Customization of the `index.php` file.
 - Consolidation and organization of CSS files for themes into a single folder for better management.
@@ -48,15 +50,16 @@ sudo git clone https://github.com/CN8VX/Dashboard_SvxReflector_by_CN8VX.git html
 1. Edit the file "config.php" located in `/var/www/html/include/config.php`:
    - Set the timezone. You can find the available timezones on this site: https://www.php.net/manual/en/timezones.php.
    - Modify the page title.
+   - Set the logo path.
+   - Set the favicon path.
    - Set the log file path if it’s not the default `/var/log/svxreflector` or if you have added an extension, e.g., `/var/log/svxreflector.log`.
    - Set the language and legend display: FR for French, FR-I for French with indication, or EN for English.
    - Set the number of lines to display in the "Logfile" section.
 
 2. Organize your resources:
-   - Place your logos, icons, and images in the `/html/img` folder to customize `index.php`.
+   - Place your logos, icons, and images in the `/html/img` folder to customize the `index.php`, `tg.php` pages.
 
 3. Edit the `index.php` file:
-   - Replace `logo.png` with your logo or the image of your choice that you have uploaded to the `/html/img` folder.
    - Customize the scrolling text to suit your needs.
    - Customize, rename, and configure the button links as needed.
    - Customize the instruction text at the top of the table.
@@ -78,8 +81,12 @@ Il a d'abord été réécrit, reconçu, simplifié et personnalisé spécifiquem
 
 Le Dashboard SvxReflector by CN8VX peut être visualisé sur PC, tablette, et smartphone. Vous pouvez changer de thème (LIGHT MODE ou DARK MODE) en cliquant simplement sur le bouton qui se trouve sur la page du Dashboard.
 
+On peut aussi visualiser le tableau des Talk Groups qui son programmer dans le réflecteur en cliquant sur le bouton Talk Groups.
+
 ## Modifications Apportées :
 - Personnalisation du fichier `index.php`.
+  - Ajouter le bouton pour changer de thème.
+  - Ajouter le bouton pour visualiser le tableau des Talk Groups.
 - Rassemblement et organisation des fichiers CSS pour les thèmes dans un seul dossier pour une meilleure gestion.
 - Réorganisation des fichiers du projet :
   - Création des dossiers `icon`, `img`, `include`, et `scripts` pour une structure de fichiers plus propre et organisée, facilitant ainsi la gestion des ressources.
@@ -118,15 +125,16 @@ sudo git clone https://github.com/CN8VX/Dashboard_SvxReflector_by_CN8VX.git html
 1. Éditez le fichier "config.php" qui se trouve dans `/var/www/html/include/config.php` :
    - Définissez le fuseau horaire. Vous trouverez les fuseaux horaires sur ce site : https://www.php.net/manual/en/timezones.php.
    - Modifiez le titre de la page.
+   - Définissez le chemin du logo.
+   - Définissez le chemin du favicon.
    - Définissez le chemin du fichier journal (log) si ce n’est pas par défaut `/var/log/svxreflector`, ou si vous avez ajouté une extension, par exemple : `/var/log/svxreflector.log`.
    - Définissez la langue et l’affichage de la légende : FR pour Français, FR-I pour Français avec indication, ou EN pour Anglais.
    - Définissez le nombre de lignes à afficher dans la section "Logfile".
 
 2. Structurez vos ressources :
-   - Placez vos logos, icônes, et images dans le dossier `/html/img` pour personnaliser `index.php`.
+   - Placez vos logos, icônes, et images dans le dossier `/html/img` pour personnaliser les pages `index.php`,`tg.php`.
 
 3. Éditez le fichier `index.php` :
-   - Remplacez `logo.png` par votre logo ou l'image de votre choix, que vous avez téléchargée dans le dossier `/html/img`.
    - Personnalisez le texte défilant selon vos besoins.
    - Personnalisez, renommez, et configurez les liens des boutons selon vos besoins.
    - Personnalisez le texte des consignes qui se trouvent en haut du tableau.
