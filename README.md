@@ -12,6 +12,8 @@ You can also view the table of Talk Groups that are programmed in the reflector 
 
 ## Modifications Made:
 - Customization of the `index.php` file.
+   - Add button to change theme.
+   - Add button to view Talk Groups table.
 - Consolidation and organization of CSS files for themes into a single folder for better management.
 - Project file reorganization:
   - Creation of `icon`, `img`, `include`, and `scripts` folders for a cleaner and more organized file structure, making resource management easier.
