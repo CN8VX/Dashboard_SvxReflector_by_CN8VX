@@ -1,3 +1,6 @@
+<?php
+include("/var/www/html/include/config.php");
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -8,7 +11,7 @@
     <meta name="description" content="Dashboard SVXReflector by CN8VX for Moroccan Amteur Radio Repeaters Interco by CN8VX." />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts/scrstyle.js"></script>
-    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="shortcut icon" href="<?php echo $favicon_path; ?>">
     <link id="stylefile" rel="stylesheet" href="css/style_normal.css">
 </head>
 
@@ -17,7 +20,7 @@
         <table>
             <tbody>
                 <tr>
-                    <td class="entt"><a href="https://www.dmr-maroc.com/repeaters_simplex_svxlink.php" target="_blank"><img class="icm" src="./img/logo.png" alt="Logo"></a></td>
+                    <td class="entt"><a href="https://www.dmr-maroc.com/repeaters_simplex_svxlink.php" target="_blank"><img class="icm" src="<?php echo LOGO_PATH; ?>" alt="Logo"></a></td>
                     <td class="entt"><span class="logo-title">Dashboard SVXReflector by CN8VX</span></td>
                 </tr>
             </tbody>
