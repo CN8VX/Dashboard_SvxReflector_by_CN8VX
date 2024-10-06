@@ -27,9 +27,10 @@ include("/var/www/html/include/config.php");
         </table>
     </div>
 
-    <!-- Les boutons de changement de thème -->
+    <!-- Les boutons -->
     <div id="container">
         <button class="btntogl" id="toggleButton" onclick="toggleStyleSheet()">Dark Mode</button>
+        <a href="tg.php"><button class="btntogl">Talk Groups</button></a>
     </div>
 
     <br><br>
