@@ -4,6 +4,8 @@
 
 Dashboard SvxReflector by CN8VX is based on the svxrdb-server Dashboard. Rewritten and redesigned by CN8VX, this Dashboard is intended for use with the latest versions of the "SvxReflector" servers.
 
+Dashboard SvxReflector by CN8VX is compatible with Debian 10, 11 and 12.
+
 Initially, it was rewritten, redesigned, simplified, and customized specifically for the SvxReflector for Moroccan Amateur Radio Repeaters Interco (http://51.210.47.236/). However, it can be adapted to other reflectors by following the modification steps described below.
 
 The Dashboard SvxReflector by CN8VX can be viewed on PCs, tablets, and smartphones. You can switch between LIGHT MODE and DARK MODE by simply clicking the button on the Dashboard page.
@@ -78,6 +80,8 @@ I encourage you to send me your comments and suggestions or corrections to the f
 # French
 
 Dashboard SvxReflector by CN8VX est basé sur le Dashboard svxrdb-server. Réécrit et reconçu par CN8VX, ce Dashboard est destiné à être utilisé avec les nouvelles versions des serveurs "SvxReflector".
+
+Dashboard SvxReflector by CN8VX est compatible avec Debian 10, 11 et 12.
 
 Il a d'abord été réécrit, reconçu, simplifié et personnalisé spécifiquement pour le SvxReflector for Moroccan Amateur Radio Repeaters Interco (http://51.210.47.236/). Toutefois, il peut être adapté à d'autres réflecteurs en suivant les étapes décrites ci-dessous.
 
