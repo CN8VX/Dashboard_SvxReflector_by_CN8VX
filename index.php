@@ -80,12 +80,24 @@ include("/var/www/html/include/config.php");
             <tr>
                 <td colspan="2">
                     <script type="text/javascript">
-                        $(document).ready(function() {
-                            $("#create_html").load("create_html.php");
-                            var refreshId = setInterval(function() {
-                                $("#create_html").load('create_html.php?' + 1 * new Date());
-                            }, 1000);
-                        });
+                        // Nouvelle implémentation avec Fetch API
+                        function fetchCreateHtml() {
+                            fetch('create_html.php')
+                                .then(response => {
+                                    if (!response.ok) {
+                                        throw new Error('Erreur lors du chargement du fichier.');
+                                    }
+                                    return response.text();
+                                })
+                                .then(data => {
+                                    document.getElementById("create_html").innerHTML = data;
+                                })
+                                .catch(error => console.error('Erreur : ', error));
+                        }
+
+                        // Appel initial et rafraîchissement toutes les 5 secondes
+                        fetchCreateHtml();
+                        setInterval(fetchCreateHtml, 1000);
                     </script>
                     <div id="create_html"></div>
                 </td>
