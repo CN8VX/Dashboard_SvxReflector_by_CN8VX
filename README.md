@@ -122,7 +122,7 @@ cd /var/www
 ```
 sudo rm -rf html
 ```
-2. Ensuite, utilisez la commande suivante por télécharger et copier tout le contenu dans le répertoire /var/www/html :
+2. Ensuite, utilisez la commande suivante pour télécharger et copier tout le contenu dans le répertoire /var/www/html :
 ```
 sudo git clone https://github.com/CN8VX/Dashboard_SvxReflector_by_CN8VX.git html
 ```
