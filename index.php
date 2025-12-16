@@ -46,8 +46,8 @@ include("/var/www/html/include/config.php");
         <table>
             <div class="boxbt">
                 <!-- Les boutons -->
-                <a target="_blank" href="http://57.131.35.97:8080/"><button class="button btn01">Serveur FreeDMR-Maroc</button></a>
-                <a target="_blank" href="http://57.131.35.97/allmon3/"><button class="button btn01">Dashboard AllStarLink</button></a>
+                <a target="_blank" href="http://free.dmr-maroc.com:8080/"><button class="button btn01">Serveur FreeDMR-Maroc</button></a>
+                <a target="_blank" href="http://free.dmr-maroc.com/allmon3/"><button class="button btn01">Dashboard AllStarLink</button></a>
                 <a target="_blank" href="http://6041.adn.systems/"><button class="button btn01">Serveur ADN-Maroc</button></a>
             </div>
             <tr>
@@ -113,5 +113,6 @@ include("/var/www/html/include/config.php");
 <!-- Fin du Footer -->
 
 </html>
+
 
 
